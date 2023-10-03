@@ -1,0 +1,207 @@
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 20px;
+    overflow: hidden;
+    background-color: black;
+}
+.navbar-logo img {
+    width: 50px;
+    height: auto;
+    float: left;
+    border-radius: 250px;
+
+}
+.navbar li a {
+    float: right;
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar li a:hover {
+    background-color: #555;
+    border-radius: 10px;
+}
+
+/* Sektion */
+
+.hero {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 60px 0;
+    background-image: url(bakgrund11.jpg);
+    background-size: cover;
+    
+}
+
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+    color: #333;
+   
+}
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.apply-button-hero {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #00c3ff;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.apply-button-hero:hover {
+background-color: #45a049;
+}
+/* Sektion */
+
+.about-us {
+    background-color: #a0ceec;
+    padding: 60px 0;
+}
+
+.about-us-content {
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+}
+
+.about-us-text {
+    flex: 1;
+    text-align: left;
+    padding: 20px;
+    color: #333;
+}
+.about-us h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.about-us p {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.about-us-image {
+    flex: 1;
+    text-align: center;
+}
+.about-us-image img {
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+/* Sektion */
+
+.student-recommendations {
+    background-color: #9c9c9c;
+    padding: 20px 0;
+    text-align: center;
+}
+.student-recommendations h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+
+}
+.recommendation-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px; 
+  margin: 20px;
+  display: inline-block;
+  width: 150px;
+  height: 200px;
+  overflow: hidden; 
+}
+.recommendation-card p {
+    font-size: 20px;
+}
+.call-to-action {
+    background-color: #032642;
+    color: #fff;
+    padding: 80px 0;
+    text-align: center;
+}
+.call-to-action h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+
+}
+.call-to-action p {
+    font-size: 15px;
+    margin-bottom: 30xpx;
+}
+
+.apply-button-cta {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #00c3ff;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.apply-button-cta:hover {
+    background-color: #45a049;
+}
+
+/* Sektion */
+
+footer {
+    background-color: #000000; 
+    color: #fff; 
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.footer-left ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-left ul li {
+    margin-bottom: 10px;
+}
+
+.footer-left a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.footer-content {
+    text-align: center;
+}
+
+.contact-info h4 {
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.footer-logo {
+    margin-top: -100px;
+    margin-left: 450px;
+     
+    
+}
+.footer-logo img {
+    width: 100px; 
+     border-radius: 50px;
+}
+
